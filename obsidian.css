@@ -1,5 +1,4 @@
 .theme-light {
-    --font-family: 'Inter', sans-serif;
     --code-font-family: 'Hack';
     --link-color: #106ba3;
     --text-color: #202b33;
@@ -10,7 +9,6 @@
 }
 
 html, body, h5, h6 {
-    font-family: var(--font-family);
     font-weight: 500 !important;
     font-style: normal !important;
     font-size: 14px !important;
@@ -19,7 +17,6 @@ html, body, h5, h6 {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Inter';
     font-weight: 600;
 }
 
