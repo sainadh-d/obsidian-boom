@@ -68,9 +68,9 @@ h1, h2, h3, h4 {
   background-color: var(--side-dock-bg-hover);
 }
 
-.nav-file-title, .nav-folder.mod-root > .nav-folder-title, .side-dock-title {
+.nav-file-title, .nav-folder.mod-root > .nav-folder-title, .side-dock-title, .nav-folder-title {
 	color: #5c7080;
-	filter: contrast(1);
+	filter: contrast(0.9);
 }
 
 /*Non hover actions*/
