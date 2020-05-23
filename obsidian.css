@@ -111,8 +111,12 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator
 	background-color: #ffffff;
 }
 
-.search-result-file-match, .search-result-file-match:hover, .obsidian-search-match-highlight {
+.search-result-file-match, .search-result-file-match:hover{
 	background-color: #f5f8fa;
+}
+
+.obsidian-search-match-highlight {
+    background-color: #c2dbec;
 }
 
 .search-result-file-matched-text {
