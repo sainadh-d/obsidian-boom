@@ -2,6 +2,7 @@
 Roam Theme for Obsidian
 > Only Light theme
 
+![Screenshot](./roam-3.png)
 ![Screenshot](./roam-1.png)
 ![Screenshot](./roam-2.png)
 ![Screenshot](./backlinks.png)
