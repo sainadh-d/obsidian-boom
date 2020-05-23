@@ -13,4 +13,3 @@ Roam Theme for Obsidian
 3. Put the "obsidian.css" in your vault root folder.
 4. Enjoy!
 
-_The font used is Inter, so make sure you have that downloaded in your font library to achieve the full effect_
