@@ -16,7 +16,7 @@ html, body, h5, h6 {
     text-size-adjust: 100% !important;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, strong {
     font-weight: 600;
 }
 
@@ -143,9 +143,9 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator
 }
 
 /* Code in markdown preview */
-.markdown-preview-view code {
+.markdown-preview-view code, .theme-light code[class*="language-"], .theme-light pre[class*="language-"] {
     font-size: 1em;
-    font-family: var(--code-font-family)
+    font-family: var(--code-font-family);
 }
 
 /*change the color of text for links in editor */
@@ -200,7 +200,11 @@ ul li {
     margin: 0 0 5px 0;
 }
 
+.markdown-preview-view blockquote {
+	margin-inline-start: 0px;
+}
+
 /*Andy's mode*/
 .workspace-split.mod-vertical { overflow-x:auto; }
 .workspace-leaf, .workspace-split > .workspace-split { min-width: 500px; min-height: 500px; }
-.workspace-split.mod-horizontal { overflow-y: auto; } 
+.workspace-split.mod-horizontal { overflow-y: auto; }
