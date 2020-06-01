@@ -1,5 +1,5 @@
-# obsidian-roam
-Roam Theme for Obsidian
+# obsidian-boom Theme
+Theme for Obsidian (Inspired by Roam Research)
 > Only Light theme
 
 ![Screenshot](./roam-3.png)
